@@ -70,3 +70,49 @@ body{
     -webkit-transition: transform 0.6s cubic-bezier(0.33, 1, 0.68, 1);
     -webkit-transform: translateY(5px);
 }
+
+.benefit{
+    
+}
+h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #424242;
+    text-align: center;
+    padding: 100px 0 42px 0;
+}
+.benefit-items{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.benefit-item {
+    max-width: 270px;
+    max-height: 400px;
+    box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
+}
+.benefit-item__inner{
+    background-color: #ffffff;
+    padding: 0 20px 25px;
+}
+.benefit-item__iamges {
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.benefit-item__name {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #424242;
+    margin-bottom: 20px;
+}
+.benefit-item__text {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
+    color: #333333;
+    text-align: center;
+}
