@@ -192,22 +192,98 @@ h2{
     padding: 105px 0 85px;
 }
 .offers-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #424242;
+    text-align: center;
 }
 .offers-subtitle {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 23px;
+    color: #333333;
+    text-align: center;
 }
 .offers-items {
+    display: flex;
+    justify-content: space-between;
+    
 }
+
 .offers-item {
+    max-width: 365px;
+    background-color: #F9F9F9;
+    padding: 0 0 32px 0;
+    text-align: center;
+    opacity: 0.5;
+    transition:  1s cubic-bezier(0.25, 1, 0.5, 1);
 }
-.offers-item__inner {
+.offers-item:hover {
+    opacity: 1;
+    transition:  1s cubic-bezier(0.25, 1, 0.5, 1);
 }
+
 .offers-item__image {
+    margin-bottom: 25px;
 }
 .offers-item__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #424242;
+    margin-bottom: 35px;
+    padding: 0 11px 0 13px;
 }
 .offers-item__descr {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
+    color: #666666;
+    margin-bottom: 37px;
+    padding: 0 11px 0 13px;
 }
 .offers-item__btn {
+    background-color: #3F97F6;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 6px;
+    padding: 10px 0;
+    -webkit-transition: transform 0.6s cubic-bezier(0.33, 1, 0.68, 1);
+}
+.offers-item__btn:hover{
+    -webkit-transition: transform 0.6s cubic-bezier(0.33, 1, 0.68, 1);
+    -webkit-transform: translateY(5px);
 }
 .offer-item_btn-text {
+    text-decoration: none;
+    color: #ffff;
+    padding: 13px 33px;
+}
+
+.credit{
+    background-color: #F2F2F2;
+}
+.credit-info {
+    display: flex;
+    
+}
+.credit-info__img {
+
+}
+.crdit-info__block{
+    background-color: #ffff;
+}
+.credit-info__title {
+
+}
+.credit-info__descr {
+
+}
+.credit-info__btn {
+
+}
+.credit-info__btn-text {
+
 }
