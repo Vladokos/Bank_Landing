@@ -395,9 +395,6 @@ h2{
     color: #333333;
     text-align: center;
 }
-.questions-items {
-
-}
 .questions-item {
     position: relative;
     width: 82%;
@@ -436,4 +433,107 @@ h2{
     font-size: 17px;
     line-height: 24px;
     color: #333333;
+}
+
+.consultation {
+    padding: 100px 0;
+}
+.consultation__inner{
+    font-weight: 300;
+    display: flex;
+}
+.consultation-img {
+    max-width: 600px;
+}
+.consultation-info {
+    background-color: #F8F8F8; 
+    height: 400px;
+    margin-top: 52px;
+    padding: 45px 52px 40px 52px;
+    box-shadow: 0px 20px 49px 1px rgba(41, 44, 61, 0.15);
+}
+
+.consultation-info__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 45px;
+    color: #424242;
+}
+.consultation-info__title::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 20px 0;
+    background-color: #000000;
+}
+.consultation-info__decrk {
+    font-size: 17px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 23px;
+}
+.consultation-info__btn {
+    background-color: #3F97F6;
+    border-radius: 6px;
+    width: 50%;
+    text-align: center;
+    margin: 0 20%;
+    transition: transform 0.6s cubic-bezier(0.5, 1, 0.89, 1);
+}
+.consultation-info__btn:hover{
+    transition: transform 0.6s cubic-bezier(0.5, 1, 0.89, 1);
+    transform: translateY(5px);
+}
+.consultation-info__btn-text {
+    font-size: 16px;
+    line-height: 34px;
+    color: #ffff;
+    text-decoration: none;
+    padding: 8px 33px;
+}
+
+.footer{
+    padding: 40px 0;
+    background-color: #f8f8f8;
+}
+.footer__inner{
+    display: flex;
+    flex-wrap:wrap;
+}
+.footer-contactInf {
+    margin: 40px;
+}
+.footer-contactInf__title {
+
+}
+.footer-contactInf__list {
+
+}
+.footer-social {
+
+}
+.footer-socila__title {
+
+}
+.footer-socila__sites {
+
+}
+.footer-AdditionalInf {
+    margin-top: 70px;
+    display: flex;
+}
+.footer-AdditionalInf__img {
+
+}
+.footer-AdditionalInf__about {
+    margin-left: 50px;
+}
+.footer-number {
+    margin: 70px 0 0 40%;
+}
+.footer-phoneNumber {
+    margin-left: 50%;
+}
+.footer-phoneNumber-descr {
 }
