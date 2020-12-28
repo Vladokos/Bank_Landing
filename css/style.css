@@ -92,10 +92,20 @@ h2{
     max-width: 270px;
     max-height: 380px;
     box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
+    transition: all 0.5s ease;
+}
+.benefit-item:hover{
+    border-radius: 100px 0px 100px 0px;
+    transition: all 0.5s ease;
 }
 .benefit-item__inner{
     background-color: #ffffff;
     padding: 0 20px 25px;
+    transition: all 0.5s ease;
+}
+.benefit-item__inner:hover{
+    border-radius: 100px 0px 100px 0px;
+    transition: all 0.5s ease;
 }
 .benefit-item__iamges {
     padding-top: 20px;
@@ -500,40 +510,59 @@ h2{
 .footer__inner{
     display: flex;
     flex-wrap:wrap;
+    font-weight: 300;
+    color: #333333;
 }
 .footer-contactInf {
-    margin: 40px;
+    margin: 40px 0 40px 40px;
 }
 .footer-contactInf__title {
-
+    font-size: 17px;
+    line-height: 24px;
 }
 .footer-contactInf__list {
-
+    margin: 26px 0 45px 70px;
 }
-.footer-social {
-
+.footer-social{
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 190px;
 }
-.footer-socila__title {
-
+.footer-social__title {
+    margin-left: 35px;
 }
-.footer-socila__sites {
+.footer-social__sites {
 
 }
 .footer-AdditionalInf {
-    margin-top: 70px;
+    margin: 70px auto;
     display: flex;
 }
-.footer-AdditionalInf__img {
-
-}
 .footer-AdditionalInf__about {
+    font-size: 17px;
+    line-height: 24px;
     margin-left: 50px;
 }
 .footer-number {
-    margin: 70px 0 0 40%;
+    margin-left:300px ;
 }
 .footer-phoneNumber {
-    margin-left: 50%;
+    font-size: 22px;
+    line-height: 31px;
+    margin-left: 15%;
+    position: relative;
+}
+.footer-phoneNumber::before{
+    content: "";
+    background-image: url(../img/phone.png) ;
+    width: 25px;
+    height: 28px;
+    position: absolute;
+    left: -27px;
+    top: 60%;
+    transform: translateY(-50%);
 }
 .footer-phoneNumber-descr {
+    font-size: 13px;
+    line-height: 18px;
 }
