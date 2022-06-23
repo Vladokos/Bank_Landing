@@ -572,10 +572,18 @@ h2{
         width: 800px;
     }
     .credit-info__descr{
-        margin-bottom: 0;
+        margin-bottom: 40px;
     }
 }
 @media (max-width: 1140px) {
+    .header__inner{
+        justify-content: space-around;
+    }
+    .menu__list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
     .lastNews-info-items{
         display: grid;
         grid-template-columns: 550px;
@@ -593,4 +601,22 @@ h2{
         align-items: center;
         gap: 15px;
     }
+    .credit-info__descr{
+        margin-bottom: 20px;
+    }
+    .credit-info__title{
+        font-size: 22px;
+    }
+    .consultation-info__title{
+        font-size: 22px;
+    }
+}
+@media (max-width: 1017px) {
+    .credit-info__title{
+        margin: 10px 0 21px;
+    }
+    .consultation-info{
+        padding: 10px 52px 0 52px;
+    }
+
 }
