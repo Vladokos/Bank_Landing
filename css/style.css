@@ -618,5 +618,12 @@ h2{
     .consultation-info{
         padding: 10px 52px 0 52px;
     }
-
+    .consultation-info__title,
+    .credit-info__title {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .footer-number {
+        margin-left: 20px;
+    }
 }
