@@ -681,9 +681,11 @@ h2 {
   }
 }
 @media (max-width: 900px) {
-  .credit-info__img img {
+  .credit-info__img img,
+  .consultation-img img {
     width: 610px;
   }
+
   .footer-map iframe {
     width: 540px;
   }
@@ -695,5 +697,24 @@ h2 {
   .menu__list {
     display: flex;
     flex-direction: column;
+  }
+  .credit-info__img,
+  .consultation-img {
+    width: 210px;
+  }
+  .credit-info__img img,
+  .consultation-img img {
+    width: 470px;
+  }
+
+  .credit-info__block {
+    padding: 0 20px;
+  }
+  .consultation-info {
+    padding: 10px 22px 0 22px;
+  }
+
+  .footer-map iframe {
+    width: 300px;
   }
 }
