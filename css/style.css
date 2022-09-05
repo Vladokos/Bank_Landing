@@ -689,10 +689,32 @@ h2 {
   .footer-map iframe {
     width: 540px;
   }
+
+  .questions-item__btn {
+    left: 92%;
+  }
 }
 @media (max-width: 600px) {
+  .header__inner {
+    justify-content: space-between;
+  }
+  .benefit-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .call-btn__text {
+    padding: 16px 63px;
+  }
+  .consultation-info__btn-text,
+  .credit-info__btn-text {
+    padding: 8px 11px;
+  }
   .menu {
     position: absolute;
+    background-color: #f8f8f8;
+    transform: translate(-15px, 266px);
+    width: 100%;
   }
   .menu__list {
     display: flex;
@@ -716,5 +738,162 @@ h2 {
 
   .footer-map iframe {
     width: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .top-info__title {
+    font-size: 52px;
+  }
+
+  .lastNews-info-items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lastNews-item__img,
+  .lastNews-item__img img {
+    width: 200px;
+
+    margin: 0 auto;
+  }
+
+  .footer-AdditionalInf {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .questions-item__btn {
+    left: 87%;
+  }
+  .about-info__image img {
+    width: 350px;
+  }
+  .consultation-info__decrk {
+    font-size: 14px;
+  }
+
+  .credit-info__title {
+    font-size: 14px;
+  }
+
+  .credit-info__descr {
+    font-size: 14px;
+  }
+
+  .credit-info__img img,
+  .consultation-img img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .top-info__title {
+    font-size: 42px;
+  }
+
+  .consultation-info__title,
+  .consultation-info__decrk,
+  .credit-info__title,
+  .credit-info__descr {
+    font-size: 13px;
+  }
+  .consultation-info__btn-text,
+  .credit-info__btn-text {
+    padding: 8px 8px;
+  }
+
+  .credit-info__img,
+  .consultation-img {
+    width: 170px;
+  }
+}
+
+@media (max-width: 400px) {
+  .credit-info__img,
+  .consultation-img {
+    width: 100px;
+  }
+
+  .credit-info__img img,
+  .consultation-img img {
+    width: 360px;
+  }
+
+  .footer-contactInf {
+    margin: 0;
+  }
+
+  .footer-social__title {
+    margin: 0;
+  }
+
+  .credit-info__img img,
+  .consultation-img img {
+    width: 320px;
+  }
+
+  .offers-item__image img {
+    width: 200px;
+  }
+
+  .about-info__image img {
+    width: 200px;
+  }
+
+  .top-info__btn-descr {
+    padding: 10px 20px;
+  }
+
+  .top-info__title {
+    font-size: 32px;
+  }
+
+  .offer-item_btn-text {
+    padding: 13px 1px;
+  }
+}
+
+@media (max-width: 340px) {
+  .credit-info__img,
+  .consultation-img {
+    width: 70px;
+  }
+
+  .credit-info__img img,
+  .consultation-img img {
+    width: 280px;
+  }
+
+  .footer-social {
+    margin: 0;
+  }
+
+  .call-btn__text {
+    padding: 16px 23px;
+  }
+  .offers-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 300px) {
+  .credit-info__img,
+  .consultation-img {
+    width: 50px;
+  }
+
+  .credit-info__img img,
+  .consultation-img img {
+    width: 240px;
+  }
+  .footer-map {
+    margin: 0 auto;
+  }
+  .footer-map iframe {
+    width: 230px;
+  }
+  .logo img {
+    width: 90px;
   }
 }
