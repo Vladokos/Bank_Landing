@@ -3,6 +3,10 @@ const burger = document.getElementsByClassName("content-menu")[0];
 // elements which was hidden
 const header = document.getElementsByClassName("menu")[0];
 
+if (window.innerWidth <= 600) {
+  header.className += " hidden";
+}
+
 burger.children[0].addEventListener("click", () => {
   if (header.className.match(/hidden/g)) {
     burger.className += " active";
