@@ -712,9 +712,12 @@ h2 {
   }
   .menu {
     position: absolute;
-    background-color: #f8f8f8;
+    background-color: #000000;
     transform: translate(-15px, 266px);
     width: 100%;
+
+    opacity: 0;
+    /* anim */
   }
   .menu__list {
     display: flex;
