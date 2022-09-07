@@ -5,6 +5,7 @@ const header = document.getElementsByClassName("menu")[0];
 
 if (window.screen.width <= 600) {
   header.className += " hidden";
+  burger.className = "content-menu";
 }
 
 burger.children[0].addEventListener("click", () => {
@@ -13,5 +14,5 @@ burger.children[0].addEventListener("click", () => {
     return (header.className = "menu");
   }
   burger.className = "content-menu";
-  header.className += " hidden";
+  return (header.className += " hidden");
 });
