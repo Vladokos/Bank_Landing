@@ -620,11 +620,6 @@ h2 {
   .header__inner {
     justify-content: space-around;
   }
-  /* .menu__list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  } */
   .lastNews-info-items {
     display: grid;
     grid-template-columns: 550px;
@@ -650,6 +645,21 @@ h2 {
   }
   .consultation-info__title {
     font-size: 22px;
+  }
+}
+@media (max-width: 1082px) {
+  .header__inner {
+    justify-content: space-between;
+  }
+  .menu {
+    position: absolute;
+    background-color: #f8f8f8;
+    transform: translate(-15px, 266px);
+    width: 100%;
+  }
+  .menu__list {
+    display: flex;
+    flex-direction: column;
   }
 }
 @media (max-width: 1017px) {
@@ -695,9 +705,6 @@ h2 {
   }
 }
 @media (max-width: 600px) {
-  .header__inner {
-    justify-content: space-between;
-  }
   .benefit-items {
     display: flex;
     flex-direction: column;
@@ -710,19 +717,7 @@ h2 {
   .credit-info__btn-text {
     padding: 8px 11px;
   }
-  .menu {
-    position: absolute;
-    background-color: #000000;
-    transform: translate(-15px, 266px);
-    width: 100%;
 
-    opacity: 0;
-    /* anim */
-  }
-  .menu__list {
-    display: flex;
-    flex-direction: column;
-  }
   .credit-info__img,
   .consultation-img {
     width: 210px;
